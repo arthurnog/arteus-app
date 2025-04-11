@@ -33,35 +33,35 @@ export default function Player() {
     }, [sound]);
 
     return (
-      <>
+      <div className="absolute w-full px-4">
         <div className="flex justify-center space-x-4">
           {!isPlaying ? (
-            <button className="playButton" onClick={playingButton}>
-              <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
+            <button className="playButton cursor-pointer" onClick={playingButton}>
+              <IconContext.Provider value={{ size: "3em", color: "#f2f2f2" }}>
                 <AiFillPlayCircle />
               </IconContext.Provider>
             </button>
           ) : (
-            <button className="playButton" onClick={playingButton}>
-              <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
+            <button className="playButton cursor-pointer" onClick={playingButton}>
+              <IconContext.Provider value={{ size: "3em", color: "#f2f2f2" }}>
                 <AiFillPauseCircle />
               </IconContext.Provider>
             </button>
           )}
         </div>
-        <div>
+        <div className="w-full px-10">
           <input
             type="range"
             min="0"
             max={(duration ?? 0) / 1000}
             defaultValue="0"
             value={seconds}
-            className="timeline"
+            className="timeline w-full cursor-pointer"
             onChange={(e) => {
               sound.seek([e.target.value]);
             }}
           />
         </div>
-      </>
+      </div>
     );
 }

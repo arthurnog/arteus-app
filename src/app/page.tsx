@@ -9,12 +9,9 @@ export default function Home() {
             ARTEUS
           </li>
         </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Player/>
-        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+          <Player/>
       </footer>
     </div>
   );
