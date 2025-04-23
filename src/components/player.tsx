@@ -5,11 +5,17 @@ import useSound from "use-sound"; // for handling the sound
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai"; // icons for play and pause
 import { IconContext } from "react-icons"; // for customazing the icons
 
-export default function Player() {
+interface PlayerProps {
+  seconds: number;
+  setSeconds: (value: number) => void;
+}
 
+export default function Player({seconds, setSeconds}:PlayerProps) {
+  
     const fmttm = '/assets/audios/fmttm.mp3'; 
-
-    const [isPlaying, setIsPlaying] = useState(false); // state for play/pause
+    
+    const [isPlaying, setIsPlaying] = useState<boolean>(false); // state for play/pause
+    //const [seconds, setSeconds] = useState<number>(0); // current position of the audio in seconds
     const [play, { pause, duration, sound}] = useSound(fmttm); // for playing the sound
 
     const playingButton = () =>{
@@ -20,8 +26,6 @@ export default function Player() {
             play(); // play the sound
         }
     }
-    
-    const [seconds, setSeconds] = useState(); // current position of the audio in seconds
 
     useEffect(() => {
         const interval = setInterval(() => {
