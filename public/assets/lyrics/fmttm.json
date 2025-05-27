@@ -1,0 +1,169 @@
+{
+    "lyrics": {
+        "syncType": "LINE_SYNCED",
+        "lines": [
+            {
+                "startTimeS": "0",
+                "words": "Fly me to the moon",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "3",
+                "words": "Let me play among the stars",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "7",
+                "words": "Let me see what spring is like",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "11",
+                "words": "On Jupiter and Mars",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "15",
+                "words": "In other words, hold my hand",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "19",
+                "words": "In other words, darling, kiss me",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "24",
+                "words": "Fill my heart with song",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "28",
+                "words": "And let me sing forevermore",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "33",
+                "words": "You are all I long for",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "37",
+                "words": "All I worship and adore",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "42",
+                "words": "In other words, please be true",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "47",
+                "words": "In other words, I love you",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "52",
+                "words": "Fly me to the moon",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "56",
+                "words": "Let me play among the stars",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "60",
+                "words": "Let me see what spring is like",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "64",
+                "words": "On Jupiter and Mars",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "68",
+                "words": "In other words, hold my hand",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "72",
+                "words": "In other words, darling, kiss me",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "77",
+                "words": "Fill my heart with song",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "81",
+                "words": "And let me sing forevermore",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "86",
+                "words": "You are all I long for",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "90",
+                "words": "All I worship and adore",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "95",
+                "words": "In other words, please be true",
+                "syllables": [],
+                "endTimeS": "0"
+            },
+            {
+                "startTimeS": "100",
+                "words": "In other words, I love you",
+                "syllables": [],
+                "endTimeS": "0"
+            }
+        ],
+        "provider": "Custom",
+        "providerLyricsId": "flymetothemoon-franksinatra",
+        "providerDisplayName": "Custom",
+        "syncLyricsUri": "",
+        "isDenseTypeface": false,
+        "alternatives": [],
+        "language": "en",
+        "isRtlLanguage": false,
+        "fullscreenAction": "FULLSCREEN_LYRICS",
+        "showUpsell": false,
+        "capStatus": "NONE",
+        "impressionsRemaining": 0
+    },
+    "colors": {
+        "background": -7769994,
+        "text": -16777216,
+        "highlightText": -1
+    },
+    "hasVocalRemoval": false
+}
