@@ -40,7 +40,9 @@ export default function Lyrics({timeStamp}:LyricsProps) {
     }, [currentLine]);
 
     return(
-        <div className="grid gap-5 text-left mx-auto w-[90%] h-90 overflow-y-auto">
+        <div className="grid gap-5 text-left mx-auto w-[90%] h-90 overflow-y-auto [-ms-overflow-style:none] 
+                      [scrollbar-width:none] 
+                      [&::-webkit-scrollbar]:hidden">
             {lyrics.lines.map((line) => {
                 const isCurrentLine = currentLine?.currentLine?.startTimeS === line.startTimeS;
                 const isPastLine = Number(line.startTimeS) < timeStamp;

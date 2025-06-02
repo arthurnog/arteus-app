@@ -2,7 +2,8 @@
 This project is an interface for ARTEUS (Algorithmic Rating Tool for Educating
 Untrained Singers)
 
-Lyrics component based on https://github.com/ndaba1/spotify-lyric-sync
+Lyrics component based on project [spotify-lyric-sync](https://github.com/ndaba1/spotify-lyric-sync)
+Recorder component using [react-use-audio-recorder](https://github.com/sankaSanjeeva/react-use-audio-recorder)
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
